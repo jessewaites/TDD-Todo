@@ -1,0 +1,10 @@
+
+<p data-role='description' class="title">This is an app to manage Todos"</p>
+
+<h1>Welcome!</h1>
+
+<%= form_for :session, url: session_path do |form| %>
+<%= form.label :email_address %>
+<%= form.text_field :email_address %>
+<%= form.submit "Sign In" %>
+<% end %>
